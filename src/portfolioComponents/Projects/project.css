@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    /* border: 2px solid red; */
+    width: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.project-cards{
+    display: flex;
+    justify-self: space-between;
+    width: 80vw;
+}

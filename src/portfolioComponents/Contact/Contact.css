@@ -1,0 +1,129 @@
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.contact-heading h4{
+    font-size: 30px;
+  font-family: "Poppins SemiBold";
+ 
+}
+.getInTouch-heading h3{
+    color: aliceblue;
+        margin-left: 0px;
+}
+
+.getInTouch{
+    display: flex;
+    justify-content: center;
+
+
+    background-image: url(../../assets/Home/bg.jpg);
+    height:400px ;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    z-index: -1;
+    
+}
+.getInTouch-heading{
+    width: 100%;
+}
+.Icons{
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.colz-icons i {
+    color: white;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .colz-icons i:hover {
+    transform: scale(1.5);
+  }
+  .form-container{
+    color: aliceblue;
+  }
+  .contact-form{
+    padding-right: 100px;
+    padding-top: 30px;
+  }
+  .contact-text{
+    color: aliceblue;
+  }
+  .Input{
+    width: 571px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    /* padding-top: 150px; */
+    border-radius: 10px;
+  }
+
+  /* responsiveness section for contact forms  */
+@media (max-width:500px){
+  #Contactme{
+    margin-top: 0vh;
+  }
+  
+  .getInTouch{
+ height: 70vh;
+  }
+  .Input{
+    display: none;
+  }
+  .Icons{
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+    height: 30px;
+
+
+    
+  }
+  .Icons h3{
+    display: flex;
+    position: absolute;
+    width: 50vw;
+    left: 40%;
+    margin-top: 0px;
+    /* right: 70%; */
+    /* justify-content: center; */
+    /* align-items: ; */
+  }
+  
+  .contact-form form{
+    position: absolute;
+    right: 10%;
+  }
+  .contact-form form div{
+    width: 70vw;
+    margin-right: 20px;
+  }
+  .social-icons{
+    display: none;
+    }
+    .colz-icons{
+  display: none;
+    }
+ 
+  .getInTouch-heading{
+    
+    height: 50px;
+    
+  }
+  .form-container{
+    width: 70vw;
+    margin-top:10vh ;
+  }
+ 
+}

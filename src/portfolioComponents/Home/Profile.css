@@ -1,0 +1,191 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10%;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/bg.jpg");
+  height: 100vh;
+}
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  position: absolute;
+  margin-bottom: 105px
+
+}
+.profile-details {
+  font-family: "Poppins SemiBold";
+}
+.btn {
+  margin: 0 15px 15px 0;
+  width: 160px;
+  height: 50px;
+}
+
+.colz a {
+  font-family: "cursive";
+}
+.dev-info {
+  font-family: "cursive";
+  font-size: 20px;
+}
+.profile-heading h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  color: #ff5823;
+}
+.profile-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 0px var(--white);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+  /* margin-left: 300px; */
+}
+.profile-photo {
+  width: 96%;
+  height: 101%;
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-photo:hover {
+  transform: scale(1.07);
+  transition: 1s;
+}
+.colz .colz-icons i {
+  color: white;
+  margin: 8px;
+  margin-left: 0px;
+}
+.colz .colz-icons i:hover {
+  transform: scale(1.5);
+}
+.design{
+  position: absolute;
+  z-index: 0;
+  box-sizing: border-box;
+  margin-top: 350px;
+ 
+}
+.design img{
+  height: auto;
+  width: 100vw;
+  margin-top: 26vh;
+}
+/* Media query start for device responsivness */
+@media all and(min-width:1201px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .profile-container{
+    width: 100vw;
+  }
+  .design {
+    position: absolute;
+    z-index: 0;
+    box-sizing: border-box;
+    margin-top: 350px;
+    /* overflow: auto; */
+    margin-right: 24px;
+  }
+}
+
+/* Responsivness for tablets */
+@media (max-width:811px){
+  .profile-container{
+    position: relative;
+    height: 50vh;
+  }
+  .profile-parent{
+    /* display: none; */
+    position: absolute;
+    top: 3%;
+  }
+  .design{
+    position: absolute;
+    z-index: 0;
+    box-sizing: border-box;
+    /* margin-top: 350px; */
+   
+  }
+  .design img{
+    height: auto;
+    width: 100vw;
+    margin-top: 14vh;
+  }
+  .profile-pic{
+    width: 40vw;
+    height: 30vh;
+    margin-top: 4vh;
+    margin-right: 3vw;
+  }
+}
+
+/* responsivness for mobile devices */
+@media (max-width:500px){
+  .profile-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+  }
+  .profile-parent{
+   /* transform: rotate(-90deg); */
+   display: flex;
+   flex-direction: column-reverse;
+
+  }
+  .colz-icons{
+    /* transform: rotate(90deg); */
+    margin-top: 3vh;
+  }
+  .profile-pic{
+    position: relative;
+    right: 13%;
+  }
+  .profile-photo{
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* height: 20vh;
+    
+    margin-top: 3vh; */
+    width: 55vw;
+  }
+  .design{
+    display: none;
+  }
+  .profile-heading{
+    margin-top: 2vh;
+  }
+ 
+  .btn-container{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+}
+
+

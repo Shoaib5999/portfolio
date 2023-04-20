@@ -25,6 +25,7 @@
 .intro {
   display: flex;
   flex-direction: column;
+  margin-top: 15px;
 }
 .intro .heading {
   display: flex;
@@ -95,7 +96,7 @@ width: 55%;
 }
 
 /* Responsivness for mobile devices */
-@media (max-width:500px){
+@media only screen and (max-width: 600px){
   .About-container-main{
     /* height: 80vh; */
   }
@@ -130,19 +131,19 @@ width: 55%;
 }
 
 }
-@media all and (max-width:400px){
+@media (max-width:400px){
   .myPhoto-section{
     display: none;
   }
   .aboutMe-section{
     width: 80vw;
-    height:100vh;
+    height:80vh;
   }
   .buttons{
     margin-top: -4vh;
     /* display: none; */
   }
   .aboutMe-details{
-    height: 90vh;
+    height: 70vh;
   }
 }

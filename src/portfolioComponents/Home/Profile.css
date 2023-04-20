@@ -81,7 +81,7 @@
 .design img{
   height: auto;
   width: 100vw;
-  margin-top: 26vh;
+  margin-top: 30vh;
 }
 /* Media query start for device responsivness */
 @media all and(min-width:1201px) {
@@ -187,5 +187,3 @@
     text-decoration: none;
   }
 }
-
-
